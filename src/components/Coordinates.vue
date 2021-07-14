@@ -386,6 +386,12 @@ export default {
           }
         },
         {
+          name: 'FatMap',
+          url: () => {
+            return `https://fatmap.com/adventures/@${this.latitude},${this.longitude},10000,-66,-12,satellite`
+          }
+        },
+        {
           name: 'SummitPost',
           url: () => {
             return `https://www.summitpost.org/object_list.php?object_type=1&distance_lat_1=${this.latitude}&distance_lon_1=${this.longitude}&map_1=1`
